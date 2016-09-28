@@ -12,7 +12,7 @@ import org.slf4j.helpers.NOPLogger;
 public class LogUtil
 {
 	/** JessMA 日志对象名称 */
-	public static final String LOGGER_NAME	= "EFUN";
+	public static final String LOGGER_NAME	= "fastutil";
 	/** JessMA 日志对象 */
 	public static final Logger logger;
 	
@@ -21,7 +21,7 @@ public class LogUtil
 		logger = LoggerFactory.getLogger(LOGGER_NAME);
 		
 		if(logger == NOPLogger.NOP_LOGGER)
-			System.err.println("!!! --> EFUN Logger is not valid, please check <-- !!!");
+			System.err.println("!!! --> fastutil Logger is not valid, please check <-- !!!");
 	}
 	
 	/** 获取 JessMA 日志记录器对象 */

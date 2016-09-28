@@ -1,6 +1,6 @@
 package org.fastutil.mainland.util.redis;
 
-import com.efun.mainland.util.CommonUtil;
+import org.fastutil.mainland.util.CommonUtil;
 import org.apache.commons.pool2.PooledObject;
 import org.apache.commons.pool2.PooledObjectFactory;
 import org.apache.commons.pool2.impl.DefaultPooledObject;

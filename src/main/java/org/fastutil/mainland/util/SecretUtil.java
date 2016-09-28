@@ -8,10 +8,10 @@ import java.security.Key;
 
 public class SecretUtil {
 
-	private static final String IV_3DES = "efun2015";// 长度必须是8
+	private static final String IV_3DES = "fastutil";// 长度必须是8
 	private static SecretKeyFactory KEY_FACTORY;
 	private static IvParameterSpec IPS;
-	private static final String DEFAULT_SECRET_KEY = "com.efun_20150311_secret";// 长度必须是24
+	private static final String DEFAULT_SECRET_KEY = "org.fastutilOrg.fastutil";// 长度必须是24
 	
 	static {
 		try {

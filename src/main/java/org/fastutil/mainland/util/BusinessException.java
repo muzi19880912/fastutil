@@ -2,7 +2,7 @@ package org.fastutil.mainland.util;
 
 /**
  * 
- * @author tink
+ * @author fastutil
  *
  */
 public class BusinessException extends Exception {

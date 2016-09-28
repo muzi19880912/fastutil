@@ -1,10 +1,10 @@
 package org.fastutil.mainland.util.redis;
 
-import com.efun.mainland.util.CacheUtil;
-import com.efun.mainland.util.CommonUtil;
-import com.efun.mainland.util.PropertiesCacheUtil;
-import com.efun.mainland.util.PropertiesFileLoader;
-import com.efun.mainland.util.cache.CacheEntityUtil;
+import org.fastutil.mainland.util.CacheUtil;
+import org.fastutil.mainland.util.CommonUtil;
+import org.fastutil.mainland.util.PropertiesCacheUtil;
+import org.fastutil.mainland.util.PropertiesFileLoader;
+import org.fastutil.mainland.util.cache.CacheEntityUtil;
 import org.apache.log4j.Logger;
 import redis.clients.jedis.*;
 

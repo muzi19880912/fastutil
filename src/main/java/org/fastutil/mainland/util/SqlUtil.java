@@ -1,6 +1,6 @@
 package org.fastutil.mainland.util;
 
-import com.efun.general.BeanHelper;
+import org.fastutil.general.BeanHelper;
 import org.apache.commons.lang3.StringUtils;
 
 import java.beans.PropertyDescriptor;
@@ -14,7 +14,7 @@ import java.util.Map.Entry;
 /**
  * obj[0]为sql语句,obj[1]为条件值（Object[]）
  * 
- * @author Efun
+ * @author fastutil
  *
  */
 public class SqlUtil {

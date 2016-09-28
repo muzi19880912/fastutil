@@ -230,12 +230,12 @@ public class RedisUtil {
 
 	/**
 	 * 调用此方法，使用完redis之后，一定要调用
-	 * {@link com.efun.mainland.util.redis.RedisUtil#returnRedis(ShardedJedis redis)}
+	 * {@link org.fastutil.mainland.util.redis.RedisUtil#returnRedis(ShardedJedis redis)}
 	 * <br/>
 	 * 如果是redis服务器端集群，则返回null
-	 * {@link com.efun.mainland.util.redis.RedisUtil#returnRedis(ShardedJedis redis)}
+	 * {@link org.fastutil.mainland.util.redis.RedisUtil#returnRedis(ShardedJedis redis)}
 	 * 
-	 * @see com.efun.mainland.util.redis.RedisUtil#returnRedis(ShardedJedis redis)
+	 * @see org.fastutil.mainland.util.redis.RedisUtil#returnRedis(ShardedJedis redis)
 	 * @return
 	 * @throws Exception 
 	 */
@@ -254,9 +254,9 @@ public class RedisUtil {
 
 	/**
 	 * 调用此方法，使用完redis之后，一定要调用
-	 * {@link com.efun.mainland.util.redis.RedisUtil#returnRedis(ShardedJedis redis)}
+	 * {@link org.fastutil.mainland.util.redis.RedisUtil#returnRedis(ShardedJedis redis)}
 	 * 
-	 * @see com.efun.mainland.util.redis.RedisUtil#returnRedis(ShardedJedis redis)
+	 * @see org.fastutil.mainland.util.redis.RedisUtil#returnRedis(ShardedJedis redis)
 	 * @return
 	 * @throws Exception 
 	 */

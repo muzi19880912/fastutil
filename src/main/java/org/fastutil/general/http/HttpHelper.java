@@ -1,9 +1,9 @@
 package org.fastutil.general.http;
 
-import com.efun.general.BeanHelper;
-import com.efun.general.CryptHelper;
-import com.efun.general.GeneralHelper;
-import com.efun.general.KV;
+import org.fastutil.general.BeanHelper;
+import org.fastutil.general.CryptHelper;
+import org.fastutil.general.GeneralHelper;
+import org.fastutil.general.KV;
 
 import javax.servlet.ServletContext;
 import javax.servlet.http.Cookie;

@@ -3,7 +3,7 @@ package org.fastutil.mainland.util.db.annotation;
 import java.lang.annotation.*;
 
 /**
- * Created by Efun on 2016-08-24.<br/>
+ * Created by fastutil on 2016-08-24.<br/>
  * column(列)
  */
 @Documented

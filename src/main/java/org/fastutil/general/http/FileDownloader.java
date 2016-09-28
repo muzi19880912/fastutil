@@ -1,7 +1,7 @@
 package org.fastutil.general.http;
 
-import com.efun.general.GeneralHelper;
-import com.efun.general.Range;
+import org.fastutil.general.GeneralHelper;
+import org.fastutil.general.Range;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

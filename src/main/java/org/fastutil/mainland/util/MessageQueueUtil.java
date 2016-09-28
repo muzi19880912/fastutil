@@ -1,6 +1,6 @@
 package org.fastutil.mainland.util;
 
-import com.efun.mainland.util.redis.RedisUtil;
+import org.fastutil.mainland.util.redis.RedisUtil;
 import org.apache.log4j.Logger;
 
 

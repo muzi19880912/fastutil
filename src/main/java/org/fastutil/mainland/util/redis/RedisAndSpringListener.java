@@ -9,7 +9,7 @@ import javax.servlet.ServletContextEvent;
 /**
  * 集成redis和spring context启动和关闭时的资源管理
  *
- * @author Created by Efun on 2016-08-19.
+ * @author Created by fastutil on 2016-08-19.
  * @see ContextLoaderListener
  *
  */

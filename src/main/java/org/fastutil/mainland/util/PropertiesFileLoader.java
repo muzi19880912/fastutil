@@ -1,6 +1,6 @@
 package org.fastutil.mainland.util;
 
-import com.efun.mainland.util.zookeeper.ZKCurator;
+import org.fastutil.mainland.util.zookeeper.ZKCurator;
 import org.apache.log4j.Logger;
 
 import java.io.File;

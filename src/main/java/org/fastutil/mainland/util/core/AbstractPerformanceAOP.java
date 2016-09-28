@@ -8,15 +8,15 @@ import org.slf4j.LoggerFactory;
 
 /**
  * 性能监控<br/>
- * 默认切入点配置：execution(* com.efun..controller..*(..)) or execution(* com.efun..action..*(..)) or execution(* com.efun..performance..*(..))<br/>
+ * 默认切入点配置：execution(* org.fastutil..controller..*(..)) or execution(* org.fastutil..action..*(..)) or execution(* org.fastutil..performance..*(..))<br/>
  * 具体类需实现checkSwitch()方法，false:不打开监控，true:打开监控
  *
- * @author Efun
+ * @author fastutil
  */
 public abstract class AbstractPerformanceAOP {
     protected static final Logger logger = LoggerFactory.getLogger(AbstractPerformanceAOP.class);
 
-    @Pointcut(value = "execution(* com.efun..controller..*(..)) or execution(* com.efun..action..*(..)) or execution(* com.efun..performance..*(..))")
+    @Pointcut(value = "execution(* org.fastutil..controller..*(..)) or execution(* org.fastutil..action..*(..)) or execution(* org.fastutil..performance..*(..))")
     protected void pointCutMethod() {
     }
 

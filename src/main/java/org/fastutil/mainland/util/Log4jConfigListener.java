@@ -1,7 +1,7 @@
 package org.fastutil.mainland.util;
 
-import com.efun.general.BeanHelper;
-import com.efun.general.GeneralHelper;
+import org.fastutil.general.BeanHelper;
+import org.fastutil.general.GeneralHelper;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletContextEvent;
@@ -106,7 +106,7 @@ public class Log4jConfigListener implements ServletContextListener {
 	/**
 	 * "sun.java.command":"com.caucho.server.resin.Resin --root-directory
 	 * /usr/local/resin/ -conf
-	 * /usr/local/resin/conf/vhost/analysis.efun.com.conf -socketwait 41798
+	 * /usr/local/resin/conf/vhost/analysis.fastutil.com.conf -socketwait 41798
 	 * -server analysis01 restart"
 	 */
 	private static final String getServerId() {

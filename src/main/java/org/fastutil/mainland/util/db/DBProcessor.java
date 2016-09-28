@@ -1,8 +1,8 @@
 package org.fastutil.mainland.util.db;
 
-import com.efun.mainland.util.CommonUtil;
-import com.efun.mainland.util.db.annotation.SelectDataBase;
-import com.efun.mainland.util.db.annotation.SelectDataBase.Type;
+import org.fastutil.mainland.util.CommonUtil;
+import org.fastutil.mainland.util.db.annotation.SelectDataBase;
+import org.fastutil.mainland.util.db.annotation.SelectDataBase.Type;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.Signature;
 import org.aspectj.lang.reflect.MethodSignature;
@@ -29,7 +29,7 @@ import java.util.Map.Entry;
  * DB select and excute<br/>
  * log name is "DBLOG"
  * 
- * @author Efun
+ * @author fastutil
  *
  */
 public class DBProcessor implements BeanPostProcessor {

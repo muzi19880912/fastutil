@@ -1,6 +1,6 @@
 package org.fastutil.general.archive;
 
-import com.efun.general.GeneralHelper;
+import org.fastutil.general.GeneralHelper;
 import org.apache.tools.ant.taskdefs.Expand;
 
 

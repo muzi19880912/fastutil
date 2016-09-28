@@ -1,6 +1,6 @@
 package org.fastutil.mainland.util.redis;
 
-import com.efun.mainland.util.cache.TimeUnitSeconds;
+import org.fastutil.mainland.util.cache.TimeUnitSeconds;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import redis.clients.jedis.ShardedJedis;

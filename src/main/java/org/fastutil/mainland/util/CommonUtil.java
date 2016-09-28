@@ -3,7 +3,7 @@ package org.fastutil.mainland.util;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONException;
 import com.alibaba.fastjson.JSONObject;
-import com.efun.general.GeneralHelper;
+import org.fastutil.general.GeneralHelper;
 
 import java.io.*;
 import java.lang.reflect.Field;

@@ -1,7 +1,7 @@
 package org.fastutil.general.http;
 
-import com.efun.general.GeneralHelper;
-import com.efun.general.LStrSet;
+import org.fastutil.general.GeneralHelper;
+import org.fastutil.general.LStrSet;
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.FileUploadBase.FileSizeLimitExceededException;
 import org.apache.commons.fileupload.FileUploadBase.IOFileUploadException;

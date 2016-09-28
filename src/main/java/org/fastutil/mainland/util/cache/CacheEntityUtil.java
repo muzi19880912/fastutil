@@ -1,7 +1,7 @@
 package org.fastutil.mainland.util.cache;
 
-import com.efun.mainland.util.redis.Redis;
-import com.efun.mainland.util.redis.RedisUtil;
+import org.fastutil.mainland.util.redis.Redis;
+import org.fastutil.mainland.util.redis.RedisUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import redis.clients.jedis.ShardedJedis;

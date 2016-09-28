@@ -52,7 +52,7 @@ public @interface SelectDataBase {
 	/**
 	 * DataBase 定义
 	 * 
-	 * @author Efun
+	 * @author fastutil
 	 *
 	 */
 	enum DataBase {
@@ -62,7 +62,7 @@ public @interface SelectDataBase {
 	/**
 	 * SQL操作 定义
 	 * 
-	 * @author Efun
+	 * @author fastutil
 	 *
 	 */
 	enum Operation {
@@ -72,7 +72,7 @@ public @interface SelectDataBase {
 	/**
 	 * 数据库装配类型 定义
 	 * 
-	 * @author Efun
+	 * @author fastutil
 	 *
 	 */
 	enum Type {

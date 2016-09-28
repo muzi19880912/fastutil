@@ -1,6 +1,6 @@
 package org.fastutil.general.mail;
 
-import com.efun.general.GeneralHelper;
+import org.fastutil.general.GeneralHelper;
 
 import javax.activation.DataHandler;
 import javax.activation.DataSource;

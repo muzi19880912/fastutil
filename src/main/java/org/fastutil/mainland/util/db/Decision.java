@@ -1,13 +1,13 @@
 package org.fastutil.mainland.util.db;
 
-import com.efun.mainland.util.db.annotation.SelectDataBase;
+import org.fastutil.mainland.util.db.annotation.SelectDataBase;
 
 /**
  * 选择器<br/>
  * ThreadLocal<br/>
  * 线程安全
  * 
- * @author Efun
+ * @author fastutil
  *
  */
 public final class Decision {

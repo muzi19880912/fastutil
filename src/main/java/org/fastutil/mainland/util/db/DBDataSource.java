@@ -1,6 +1,6 @@
 package org.fastutil.mainland.util.db;
 
-import com.efun.mainland.util.db.annotation.SelectDataBase;
+import org.fastutil.mainland.util.db.annotation.SelectDataBase;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.InitializingBean;

@@ -5,7 +5,7 @@ import java.io.IOException;
 
 /**
  * 
- * @author tink
+ * @author fastutil
  *
  */
 public class CharacterEncodingFilter implements Filter {

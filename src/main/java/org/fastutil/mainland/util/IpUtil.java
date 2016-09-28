@@ -1,6 +1,6 @@
 package org.fastutil.mainland.util;
 
-import com.efun.general.GeneralHelper;
+import org.fastutil.general.GeneralHelper;
 import org.apache.log4j.Logger;
 
 import javax.servlet.http.HttpServletRequest;

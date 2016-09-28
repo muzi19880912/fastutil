@@ -15,12 +15,11 @@ import java.util.Properties;
 
 /**
  * 属性文件加载器<br/>
- * <font color=red> need to set the system property efunSystemPropertyRegion to
+ * <font color=red> need to set the system property projectSystemPropertyRegion to
  * value <br/>
- * eg:efunSystemPropertyRegion=tw <br/>
- * default efunSystemPropertyRegion is null </font>
- * 
- * @author Efun
+ * eg:projectSystemPropertyRegion=cn <br/>
+ * default projectSystemPropertyRegion is null </font>
+ *
  *
  */
 public class PropertyConfigurer extends PropertyPlaceholderConfigurer {
@@ -28,7 +27,7 @@ public class PropertyConfigurer extends PropertyPlaceholderConfigurer {
 	private static final Logger logger = LoggerFactory.getLogger(PropertyConfigurer.class);
 
 	private static final String CLASSPATH = "classpath:";
-	private static final String SYSTEM_PROPERTY_REGION_KEY = "efunSystemPropertyRegion";
+	private static final String SYSTEM_PROPERTY_REGION_KEY = "projectSystemPropertyRegion";
 	private static final String SYSTEM_PROPERTY_REGION_VALUE = System.getProperty(SYSTEM_PROPERTY_REGION_KEY);
 
 	private List<Properties> mpropList = new ArrayList<Properties>();
